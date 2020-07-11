@@ -39,7 +39,6 @@ body {
   line-height: 1.4;
   color: var(--main-white);
   background-image: url(../images/bg-pattern.png);
-  background-repeat: repeat-y;
 }
 
 h1,
@@ -591,5 +590,30 @@ footer i {
     flex-direction: column;
     text-align: center;
   }
+}
+
+/* 2400px / 16px = 150em */
+@media (min-width: 150em) {
+    html {
+      font-size: 200%;
+    }
+
+    .contact-input {
+      height: 100px;
+    }
+
+    .section-background {
+      background-size: cover;
+    }
+
+    .project-item {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .project-image {
+      width: 100%;
+    }
+
 }
 
