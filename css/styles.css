@@ -337,26 +337,6 @@ img {
   border-radius: 2px;
 }
 
-.btn-show-all {
-  font-size: 2rem;
-  background: var(--main-gray);
-  transition: background 0.3s ease-out;
-}
-
-.btn-show-all:hover {
-  background: var(--main-red);
-}
-
-.btn-show-all:hover > i {
-  transform: translateX(2px);
-}
-
-.btn-show-all > i {
-  margin-left: 10px;
-  transform: translateX(0);
-  transition: transform 0.3s ease-out;
-}
-
 /* Contact section */
 .contact-section {
   text-align: center;
@@ -612,8 +592,8 @@ footer i {
       align-items: center;
     }
 
-    .project-image {
-      width: 100%;
+    .project.project-tile {
+      width: 50%;
     }
 
     form .btn {
